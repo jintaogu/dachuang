@@ -1,0 +1,233 @@
+#header {
+	margin: 0px 20px 0px 20px;
+	padding: 40px;
+	border: 1px solid deepskyblue;
+	background-image: url(../img/list-banner1.jpg);
+	background-repeat: no-repeat;
+	background-position: lr=left;
+	background-size: 100%;
+	max-width: 100%;
+	height: 90px;
+}
+#header h1 {color: #C8C8C8;}
+#nav {
+	width: 100%;
+	margin: 0;
+	float: left;
+	position: relative;
+	z-index: 10000;
+	}
+#nav ul {
+	list-style-type: none;
+	margin: 0 20px;
+	padding: 0;
+	overflow: hidden;
+	background-color: #33b5e5;
+	border-bottom:1px solid #2788da;
+}
+#nav li {float: left;}
+#nav li a,.dropbtn {
+	display: inline-block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+#nav li a:hover,.dropdown:hover.dropbtn {background-color: #0099cc;}
+
+
+.dropdown {display: inline-block;}
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #F9F9F9;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.dropdown-content a{
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+}
+.dropdown-content a:hover {background-color: #F1F1F1;}
+.dropdown:hover .dropdown-content {display: block;background-color: #33B5E5;}
+#footer {
+	text-align: center;
+	clear: both;
+	background-color: lightskyblue;	
+	border: 1px solid white;
+	margin-top: 500px;
+}
+* {
+	margin:0px;
+	padding:0px;
+}
+/*轮播图*/
+.banner {
+	width:1200px;
+	height:350px;
+	margin:auto auto;
+	position:relative;
+	overflow:hidden;
+	cursor:pointer;
+}
+.banner ul {
+	list-style:none;
+	width:700%;
+	height:300px;
+	position:absolute;
+}
+.banner ul li {
+	width:1200px;
+	height:300px;
+	float:left;
+}
+.banner ul li img {
+	width:100%;
+	height:100%;
+}
+.banner .arrow .left,.banner .arrow .right {
+	width:40px;
+	height:80px;
+	background:#000000;
+	opacity:0.3;
+	position:absolute;
+	top:50%;
+	transform:translateY(-50%);
+	font-family:"宋体";
+	font-size:52px;
+	color:#fff;
+	line-height:80px;
+	text-align:center;
+}
+.arrow .left {
+	left:0px;
+}
+.arrow .right {
+	right:0px;
+}
+.banner .arrow {
+	display:none;
+}
+/*鼠标经过盒子，让箭头显示出来*/
+		    .banner:hover .arrow {
+	display:block;
+	cursor:pointer;
+}
+/*小圆点样式*/
+		   .banner ol {
+	list-style:none;
+	width:200px;
+	height:20px;
+	background:#222222;
+	position:absolute;
+	bottom:50px;
+	left:50%;
+	transform:translateX(-50%);
+	/*opacity:0.3;
+	*/
+		    border-radius:10px;
+}
+.banner ol li {
+	width:10px;
+	height:10px;
+	background:#fff;
+	border-radius:50%;
+	float:left;
+	margin-left:21px;
+	margin-top:5px;
+	cursor:pointer;
+}
+.banner ol .now {
+	background:aqua;
+}
+/*返回顶部*/
+.go-top{ width:5px; height:65px; position:absolute; right:20px;}
+.go-top a{ display:block; cursor:pointer; outline:none;}
+/*通知公告*/
+#content {
+	border: 1px solid white;
+}
+#title {
+	width: 700px;
+	border-bottom: 1px solid #87CEFA;
+	padding-bottom: 10px;
+	margin-bottom: 15px;
+	margin-left: 20px;
+	float: left;
+}
+#title h1 {
+	display: block;
+	color: #00BFFF;
+	font-size: 32px;
+	float: left;
+	height: 22px;
+	line-height: 22px;
+}
+.more {
+	display: block;
+	float: left;
+	height: 22px;
+	line-height: 10px;
+	padding-left: 640px;
+}
+#a1 {
+	text-decoration: none;
+}
+#tzgg-con {
+	width: 100%;
+	background: ;
+}
+/*纵向时间轴*/
+#time_vertical {
+	list-style-type: none;
+	border-top: 70px solid white;
+	padding: 0px;
+	height: 400px;
+}
+#time_vertical li {
+	height: 200px;
+	position: relative;
+	margin-left: 20px;
+}
+#a_1,#a_2,#a_3,#a_4,#a_5,#a_6 {
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+#b1,#b2,#b3,#b4,#b5,#b6:before {
+    content: '';
+    position: absolute;
+    top: 18px;
+    left: -12px;
+    width: 18px;
+    height: 18px;
+    border: 2px solid #98FB98;
+    border-radius: 10px;
+    background: #98FB98;
+}
+
+.sp1,.sp2,.sp3,.sp4,.sp5,.sp6 {
+    position: absolute;
+    color: #000000;
+    top: 18px;
+    left: -6px;
+}
+#p1,#p2,#p3,#p4,#p5,#p6 {
+	border: 1px solid #00CC99;
+	width: 700px;
+	height: 100px
+}
+#second {
+	border:1px solid white ;
+	margin-top: -470px;
+	margin-left: 760px;
+	float: left;
+}
+.sp11 {
+	border: 1px solid white ;
+	margin-left:-200px ;
+	margin-bottom: 28px;
+
+}
